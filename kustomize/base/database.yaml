@@ -4,6 +4,8 @@ metadata:
   name: airlinedb
   namespace: schemahero-tutorial
 spec:
+  immediateDeploy: true
+  enabledShellCommand: true
   connection:
     postgres:
       uri:
