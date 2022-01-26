@@ -5,7 +5,7 @@ metadata:
   namespace: schemahero-tutorial
 spec:
   immediateDeploy: true
-  enabledShellCommand: true
+  enableShellCommand: true
   connection:
     postgres:
       uri:
